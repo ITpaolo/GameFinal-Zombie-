@@ -49,7 +49,7 @@
  <tileset firstgid="50" name="Complete" tilewidth="32" tileheight="32" tilecount="42" columns="14">
   <image source="Complete.png" width="448" height="96"/>
  </tileset>
- <layer name="level1" width="50" height="50">
+ <layer name="level1" width="50" height="50" offsetx="-1" offsety="0">
   <data encoding="csv">
 68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,
 68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,
@@ -132,9 +132,9 @@
   <object id="291" gid="62" x="476" y="320" width="32" height="32"/>
   <object id="292" gid="62" x="444" y="288" width="32" height="32"/>
   <object id="293" gid="62" x="413" y="288" width="32" height="32"/>
-  <object id="294" gid="76" x="381" y="288" width="32" height="32"/>
+  <object id="294" name="wall2" gid="76" x="381" y="288" width="32" height="32"/>
   <object id="295" gid="76" x="350" y="289" width="32" height="32"/>
-  <object id="296" gid="90" x="286" y="289" width="32" height="32"/>
+  <object id="296" name="wall3" gid="90" x="286" y="289" width="32" height="32"/>
   <object id="297" gid="90" x="318" y="289" width="32" height="32"/>
   <object id="298" gid="63" x="254" y="289" width="32" height="32"/>
   <object id="299" gid="63" x="222" y="289" width="32" height="32"/>

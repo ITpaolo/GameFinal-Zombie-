@@ -6,7 +6,7 @@ var playState = {
         //game.state.start('pausemenu');
 
         map = this.game.add.tilemap('map');
-        map.addTilesetImage('tiles', 'minimap1', 'minimap2', 'zombies');
+        map.addTilesetImage('tiles', 'minimap1', 'minimap2', 'zombies', 'walls');
         map.setCollisionBetween(1, 99);
 
         layer = map.createLayer('level1');
@@ -34,9 +34,10 @@ var playState = {
 
 
         map.createFromObjects('ol1', 16, 'zombies', 0, true, false, zombies);
-        map.createFromObjects('ol1', 32, 'minimap1', 0, true, false, minimap1);
-        map.createFromObjects('ol1', 41, 'minimap2', 0, true, false, minimap2);
-        map.createFromObjects('ol1', 50, 'Complete', 0, true, false, Complete);
+        map.createFromObjects('ol1', 43, 'WallZombie', 0, true, false, WallZombie);
+        map.createFromObjects('ol1', 62, 'walls', 0, true, false, walls);
+        map.createFromObjects('ol1', 76, 'wall2', 0, true, false, wall2);
+        map.createFromObjects('ol1', 90, 'wall3', 0, true, false, wall3);
 
 
         walls.immovable = true;
